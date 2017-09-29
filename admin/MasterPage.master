@@ -137,8 +137,8 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a target="_blank" href="/" class="mobile-view-web-btn hidden-sm hidden-md hidden-lg"><i class="fa fa-external-link fa-border"></i></a>
-                            <a href="default.aspx" class="navbar-brand" title="Sanalog"><img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-icon.png" alt="" title="Sanalog v1.0 Admin" /><%= Resources.admin_language.login_admin_title %></a>
-                           <%-- <a href="default.aspx" class="navbar-brand" title="Sanalog"><img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-logo.png" alt="Sanalog Admin" /></a>--%>
+                            <a href="default.aspx" class="navbar-brand" title=""><img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-icon.png" alt="" title="" /> Simoty</a>
+                           <%-- <a href="default.aspx" class="navbar-brand" title="Sanalog"><img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-logo.png" alt="" /></a>--%>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
@@ -343,12 +343,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="sanalog-announcements">
-                        <div id="dvContent">
-                            <ul>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <asp:ContentPlaceHolder ID="CPH1" runat="server">
@@ -360,8 +355,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <footer role="contentinfo">
-                            <div class="pull-left"><p><%= Resources.admin_language.login_admin_footer_1 %>
-                <%= DateTime.Today.Year.ToString() %> <%= Resources.admin_language.login_admin_footer_2 %></p></div>
+                            <div class="pull-left"><p>Copyright © 2004 - 2017</p></div>
                         </footer>
                     </div>
                 </div>

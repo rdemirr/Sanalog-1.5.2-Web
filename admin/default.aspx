@@ -8,8 +8,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH1" runat="Server">
 
 
-    <div class="page-head-x4"><%= Resources.admin_language.default_welcome %></div>
-    <div class="page-head-x1"><%= Resources.admin_language.default_help %></div>
+    <div class="page-head-x4">Hoş Geldin <%= Snlg_MemberInfo.s_UserName%> !</div>
+    <div class="page-head-x1">Bu panel ile siteni dilediğin gibi tasarlayabilirsin!</div>
 
     <div id="global_errors" class="errors-out">
         <div class="errors-in">

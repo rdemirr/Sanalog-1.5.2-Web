@@ -26,7 +26,7 @@
                     <div class="panel bootstrap-admin-login-form">
                         <div class="panel-heading">
                             <h1>
-                                <img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-icon.png" alt="" class="login-logo-ico" title="Sanalog v1.0 Admin" /><%= Resources.admin_language.login_admin_title %> <small><%= Resources.admin_language.login_admin_title_small %></small>
+                                <img src="<%= Snlg_ConfigValues.AdminThemePath %>images/sanalog-icon.png" alt="" class="login-logo-ico" title="" />Yönetim  <small> Paneli</small>
                             </h1>
                         </div>
                         <div class="panel-body" id="divLogin">
@@ -87,13 +87,13 @@
                 </div>
             </form>
         </div>
+      
         <div class="navbar navbar-footer navbar-fixed-bottom" style="position: fixed !important;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
                         <footer role="contentinfo">
-                            <div class="pull-left"><p><%= Resources.admin_language.login_admin_footer_1 %>
-                <%= DateTime.Today.Year.ToString() %> <%= Resources.admin_language.login_admin_footer_2 %></p></div>
+                            <div class="pull-left"><p>Copyright © 2004 - 2017 Sanalog</p></div>
                         </footer>
                     </div>
                 </div>

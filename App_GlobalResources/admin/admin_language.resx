@@ -857,7 +857,7 @@
     <value>Şifremi Unuttum</value>
   </data>
   <data name="login_admin_header" xml:space="preserve">
-    <value>SANALOG | Sınır Sensin.</value>
+    <value>SIMOTY | Yönetim Paneli.</value>
   </data>
   <data name="login_admin_input" xml:space="preserve">
     <value>Giriş</value>
